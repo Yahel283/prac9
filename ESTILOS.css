@@ -1,0 +1,108 @@
+button{
+    max-width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background: rgb(196, 153, 104);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#Container
+{
+    width: 1111px;
+    margin: 0px auto;
+    border: 0px solid black;
+}/*Modifiqué el tamaño del contenedor*/
+
+header 
+{
+    background: rgb(218, 162, 60);
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    line-height: 99px;
+    color: rgb(9, 10, 10);
+    border-bottom: 3px solid rgb(2, 14, 13); 
+}/*En header modifiqué el color de fondo y de letra, el tamaño y el tamaño del borde*/
+
+nav
+{
+    background: rgb(222, 241, 46);
+    height: 50px;
+    border-bottom: 3px solid black;
+    color: aquamarine;
+}/*Cambié el color de fondo y el tamaño y color del bordo*/
+
+nav ul li
+{
+    float: left;
+    list-style: none;
+    margin: 10px;
+    line-height: 30px;
+}
+
+.clearfix
+{
+    clear: both;
+}
+
+#content
+{
+    float: left;
+    width: 80%;
+    background: rgb(243, 178, 81);
+    min-height: 400px
+}/*Modifiqué el tamaño y el color de fondo*/
+
+aside
+{
+    float: left;
+    width: calc(20% - 20px);
+    background: rgb(194, 141, 63);
+    min-height: 759px;
+    padding: 10px;
+}/*Cambié el color de fondo, el tamaño y el ancho*/
+
+.article
+{
+    color: rgb(16, 16, 17);
+    margin-top: 15px;
+    margin-bottom: 0px;
+    border-bottom: 1px solid white;
+}/*Modifiqué el margen del inicio y del final y también el color del borde*/
+
+.article h2
+{
+    font-size: 24px;
+}
+
+#content2
+{
+    float: left;
+    width: 50%;
+    background: rgb(243, 178, 81);
+    min-height: 150px
+}
+
+#content2
+{
+    float: center;
+    width: 80%;
+    background: rgb(243, 178, 81);
+    min-height: 150px
+}
+nav.centrado {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 5px;
+    background: #c59c4e;
+  }
+  
+  nav.centrado a {
+    text-decoration: none;
+    color: #faf8f8;
+    padding: 5px 5px;
+  }
