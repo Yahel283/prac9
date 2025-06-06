@@ -106,3 +106,18 @@ nav.centrado {
     color: #faf8f8;
     padding: 5px 5px;
   }
+
+  @media (max-width: 765px){
+    header{
+        font-size: 20px;
+        padding: 15px;
+    }
+
+    .letreros h1{
+        font-size: 20px;
+    }
+
+    .gallery-item{
+        width: 90%;
+    }
+  }

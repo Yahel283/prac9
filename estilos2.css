@@ -125,3 +125,18 @@ nav.centrado {
     margin-right: 180px;
     margin-top: 100px;
 }
+
+@media (max-width: 765px){
+    header{
+        font-size: 20px;
+        padding: 15px;
+    }
+
+    .letreros h1{
+        font-size: 20px;
+    }
+
+    .gallery-item{
+        width: 90%;
+    }
+  }
